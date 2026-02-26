@@ -7,7 +7,7 @@ export default function Button({
     className,
     ...props
 }: ButtonProps) {
-    const defaultStyling = "text-lg"
+    const defaultStyling = "text-c-subtle text-lg hover:cursor-pointer "
     return(
         <button className={`${defaultStyling} ${className}`} {...props}>
             {children}

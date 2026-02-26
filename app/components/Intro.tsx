@@ -1,15 +1,17 @@
+import Button from "./Button";
+
 export default function Intro() {
     return (
-        <div className="flex flex-col items-center mt-50 font-bold text-left">
-                <h2 className="text-4xl text-gray-300 ">Hi! My name is</h2>
-                <h2 className="text-blue-600 text-8xl">Casper Pilgaard.</h2>    
+        <div className="flex flex-col text-left gap-1">
+            <p className="text-c-subtle text-xl font-semibold">Hi there! I'm</p>
+            <h1 className="text-c-hero text-4xl font-bold md:text-6xl">Casper Pilgaard</h1>    
+            <p className="text-c-subtle text-lg font-semibold md:text-2xl ">
+                Software Developer
+            </p>
 
-            <div className="">
-                <h2>
-                    I'm a Software Developer with focus on Full Stack Development.
-                </h2>
-            </div>
+            <p className="text-c-body font-normal mt-4 text-base max-w-sm">I enjoy building websites</p>
 
+            <Button className="border-black border-1">Github</Button>
         </div>
     )
 }
