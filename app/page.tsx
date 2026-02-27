@@ -8,7 +8,7 @@ export default function Home() {
       <Navigation/>
       
       <main className="flex flex-col px-6 max-w-2xl mx-auto">
-        <section className="min-h-screen flex flex-col justify-center">
+        <section className="flex flex-col justify-center" style={{ minHeight: 'calc(100vh - 64px)'}}>
           <Intro />
         </section>
 
