@@ -24,6 +24,22 @@ html {
   --color-c-accent: #5ecb8a;
 }
 
+@keyframes float {
+  0%   { transform: translate(0,0); }
+  20%  { transform: translate(var(--x1), var(--y1)); }
+  40%  { transform: translate(var(--x2), var(--y2)); }
+  60%  { transform: translate(var(--x3), var(--y3)); }
+  80%  { transform: translate(var(--x4), var(--y4)); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0; box-shadow: 0 0 2px 1px rgba(94,203,138,0); }
+  30%       { opacity: 0.15; }
+  50%       { opacity: 0.8; box-shadow: 0 0 8px 3px rgba(94,203,138,0.4); }
+  70%       { opacity: 0.2; }
+}
+
 
 
 @layer components {
