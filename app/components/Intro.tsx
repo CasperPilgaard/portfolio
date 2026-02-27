@@ -6,12 +6,12 @@ export default function Intro() {
             <p className="text-c-subtle text-xl font-semibold">Hi there! I'm</p>
             <h1 className="text-c-hero text-4xl font-bold md:text-6xl">Casper Pilgaard</h1>    
             <p className="text-c-subtle text-lg font-semibold md:text-2xl ">
-                Software Developer
+                I'm a Software Developer
             </p>
 
-            <p className="text-c-body font-normal mt-4 text-base max-w-sm">I enjoy building websites</p>
+            <p className="text-c-body font-normal mt-4 text-base max-w-sm"></p>
 
-            <Button className="border-black border-1">Github</Button>
+            <Button className="border-black">Github</Button>
         </div>
     )
 }
