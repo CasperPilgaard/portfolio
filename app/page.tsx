@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Navigation/>
       
-      <main className="flex flex-col px-6 max-w-2xl mx-auto gap-60">
+      <main className="flex flex-col px-6 max-w-2xl mx-auto gap-60 relative z-10">
         <section className="flex flex-col justify-center" style={{ minHeight: 'calc(100vh - 64px)'}}>
           <Intro />
         </section>
