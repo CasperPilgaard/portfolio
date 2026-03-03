@@ -1,6 +1,9 @@
+import Button from "./Button";
+import ProjectCard from "./ProjectCard";
+
 const data = []
 
-type Project = {
+export type Project = {
     title: string;
     description: string;
     stack: string[];
@@ -25,22 +28,8 @@ export default function Projects() {
             
             <div>
                 {projects.map((project, i) => (
-                    <div key={i} className="w-full p-3 border-1 rounded-xl border-c-muted mb-10">
-                        <p className="text-c-accent">{project.title}</p>
-                        <p className="text-c-body text-sm">{project.description}</p>
-
-                
-
-                        <div className="flex gap-2">
-                            {project.stack.map( (tech, i) => (
-                                <span key={i} className="p-1 rounded-xl border-1 border-c-muted w-3/10 text-c-body text-center text-xs whitespace-wrap overflow-auto">{tech}</span>
-                            ))}
-
-                            
-
-
-                        </div>
-
+                    <div>
+                        <ProjectCard project={project}/>
                     </div>
 
                         ))}
