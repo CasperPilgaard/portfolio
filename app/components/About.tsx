@@ -16,7 +16,7 @@ export default function About() {
                 <h3 className="text-c-heading text-2xl">
                     About me
                 </h3>
-                <p className="text-c-body whitespace-wrap">{text}</p>
+                <p className="text-c-body whitespace-wrap backdrop-blur-sm">{text}</p>
             </div>
         </>
     )
