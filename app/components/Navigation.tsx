@@ -5,11 +5,12 @@ import Image from "next/image";
 
 function scrollToSection(
     id: string,
+    offset: number = -80
 ) {
     const el = document.getElementById(id);
     if (!el) return;
 
-    const yScroll = el.getBoundingClientRect().top + window.scrollY;
+    const yScroll = el.getBoundingClientRect().top + window.scrollY + offset;
 
     window.scrollTo({top: yScroll, behavior: "smooth"})
 }
@@ -29,19 +30,16 @@ export default function Navigation() {
                 <div className="flex gap-6 ml-auto">
                     <Button
                         onClick={() => scrollToSection('about')}
-                        className=""
                         >About
                     </Button>
 
                     <Button
                         onClick={() => scrollToSection('projects')}
-                        className=""
                         >Projects
                     </Button>
 
                     <Button
                         onClick={() => scrollToSection('contact')}
-                        className=""
                         >Contact
                     </Button>
 
