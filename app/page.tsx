@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Intro from "./components/Intro";
 import Navigation from "./components/Navigation";
 
@@ -15,6 +16,11 @@ export default function Home() {
         <section className="py-24" id="about">
           <About />
         </section>
+
+        <section className="" id="contact">
+          <Contact/>
+        </section>
+
       </main>
     </>
   );
