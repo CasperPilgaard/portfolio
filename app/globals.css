@@ -42,22 +42,6 @@ html {
   70%       { opacity: 0.2; }
 }
 
-
-
-@layer components {
-  .border-default {
-    @apply border border-slate-700;
-  }
-
-  .card-bg {
-    @apply bg-slate-900
-  }
-
-  .text-color-default {
-    @apply text-slate-400;
-  }
-}
-
 body {
   min-height: 100dvh;
   background: var(--background);
