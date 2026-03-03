@@ -3,6 +3,7 @@ export type Project = {
     description: string;
     stack: string[];
     github: string;
+    image?: string;
 }
 
 export const projects: Project[] = [
@@ -14,7 +15,7 @@ export const projects: Project[] = [
     },
     {
         title: "Chirp",
-        description: "School project - Twitter like clone, where we focused on adding new features and refactoring old codebase",
+        description: "School project - refactored and extended an existing Twitter clone in C# and .NET",
         stack: ["C#", ".NET", "Razor Pages", "xUnit"],
         github: "https://github.com/casperpilgaard/portfolio"
     }
