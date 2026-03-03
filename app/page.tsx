@@ -2,6 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Intro from "./components/Intro";
 import Navigation from "./components/Navigation";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
 
         <section className="py-24" id="about">
           <About />
+        </section>
+
+        <section id="projects">
+          <Projects/>
         </section>
 
         <section className="" id="contact">

@@ -34,7 +34,7 @@ export default function Navigation() {
                     </Button>
 
                     <Button
-                        onClick={() => scrollToSection('about')}
+                        onClick={() => scrollToSection('projects')}
                         className=""
                         >Projects
                     </Button>
