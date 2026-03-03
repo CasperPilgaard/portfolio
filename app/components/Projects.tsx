@@ -1,23 +1,5 @@
-import Button from "./Button";
 import ProjectCard from "./ProjectCard";
-
-const data = []
-
-export type Project = {
-    title: string;
-    description: string;
-    stack: string[];
-    github: string;
-}
-
-const projects: Project[] = [
-    {
-        title: "Portfolio",
-        description: "My personal portfolio",
-        stack: ["TypeScript", "Next.js", "Tailwind CSS"],
-        github: "https://github.com/casperpilgaard/portfolio"
-    }
-]
+import {projects} from "./projects"
 
 export default function Projects() {
     
@@ -32,12 +14,8 @@ export default function Projects() {
                         <ProjectCard project={project}/>
                     </div>
 
-                        ))}
-            </div>
-
-                        
-
-                
+                ))}
+            </div>  
         </>
     )
 }
