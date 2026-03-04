@@ -20,7 +20,7 @@ export default function Intro() {
                 >
                 <span className="text-c-accent text-center">Check out my code! </span>
                 <div className="flex flex-col">
-                    <FaGithub className="text-7xl text-c-accent" />
+                    <FaGithub className="text-6xl text-c-accent" />
                     <p className="text-c-accent text-center">GitHub</p>
                 </div>
             </a>

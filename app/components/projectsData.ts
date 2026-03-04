@@ -17,6 +17,6 @@ export const projects: Project[] = [
         title: "Chirp",
         description: "School project - refactored and extended an existing Twitter clone in C# and .NET",
         stack: ["C#", ".NET", "Razor Pages", "xUnit"],
-        github: "https://github.com/casperpilgaard/portfolio"
+        github: "https://github.com/ITU-BDSA23-GROUP2/Chirp"
     }
 ]
