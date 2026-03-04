@@ -18,8 +18,11 @@ export default function Intro() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 border border-c-muted px-2 py-1 rounded-xl hover:border-c-accent transition-colors w-50"
                 >
-                <span className="text-c-accent">Check out my GitHub!</span>
-                <FaGithub className="text-7xl text-c-accent" />
+                <span className="text-c-accent text-center">Check out my code! </span>
+                <div className="flex flex-col">
+                    <FaGithub className="text-7xl text-c-accent" />
+                    <p className="text-c-accent text-center">GitHub</p>
+                </div>
             </a>
         </div>
     )
