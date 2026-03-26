@@ -22,7 +22,7 @@ export default function Home() {
           <Projects/>
         </section>
 
-        <section className="" id="contact">
+        <section className="mb-20" id="contact">
           <Contact/>
         </section>
 
