@@ -9,14 +9,18 @@ export type Project = {
 export const projects: Project[] = [
     {
         title: "Portfolio",
-        description: "My personal portfolio",
-        stack: ["TypeScript", "Next.js", "Tailwind CSS"],
-        github: "https://github.com/casperpilgaard/portfolio"
+        description: "This is the site you're looking at right now. Built to showcase my projects, skills and experience as a software developer.",
+        stack: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Vercel"],
+        github: "https://github.com/casperpilgaard/portfolio",
+        image: "/ProjectImages/Portfolio.png"
     },
+
     {
-        title: "Chirp",
-        description: "School project - refactored and extended an existing Twitter clone in C# and .NET",
-        stack: ["C#", ".NET", "Razor Pages", "xUnit"],
-        github: "https://github.com/ITU-BDSA23-GROUP2/Chirp"
-    }
+        title: "WasteIT",
+        description: `School project - In collaboration with IBM, we made a prototype for a waste management system. The idea was to give an overview for waste collectors, so they do not 
+        drive in vain and waste time.`,
+        stack: ["JavaScript", "React", "Firebase", "C#"],
+        github: "https://github.com/WasteIT/WasteManagement_IBM",
+        image: "/ProjectImages/WasteIT.png"
+    },
 ]

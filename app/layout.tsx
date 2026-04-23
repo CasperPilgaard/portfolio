@@ -15,7 +15,7 @@ export const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Casper Pilgaard | Software Developer",
+  title: "Portfolio | Casper Pilgaard",
   description: "Portfolio of Casper Pilgaard",
   icons: {
     icon: "favicon.svg"
