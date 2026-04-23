@@ -2,22 +2,21 @@
 
 import SkillCard from "../components/SkillCard"
 import { useScrollReveal } from "@/app/animations/useScrollReveal"
-import { FaGithub } from "react-icons/fa"
 
 const skills = [
-    { name: "TypeScript", icon: "/icons/TypeScript.svg" },
-    { name: "JavaScript", icon: "/icons/JavaScript.svg" },
-    { name: "HTML", icon: "/icons/HTML.svg" },
-    { name: "CSS", icon: "/icons/CSS.svg" },
-    { name: "React", icon: "/icons/React.svg" },
-    { name: "Next.js", icon: "/icons/NextJS.svg" },
-    { name: "Tailwind", icon: "/icons/Tailwind.svg" },
-    { name: "C#", icon: "/icons/CSharp.svg" },
-    { name: "Git", icon: "/icons/Git.svg" },
-    { name: "GitHub", icon: "/icons/GitHub.svg" },
-    { name: "Vercel", icon: "/icons/Vercel.svg" },
-    { name: "NPM", icon: "/icons/NPM.svg" },
-    { name: "VS Code", icon: "/icons/VSCode.svg" },
+    { name: "TypeScript", icon: "/Icons/TypeScript.svg" },
+    { name: "JavaScript", icon: "/Icons/JavaScript.svg" },
+    { name: "HTML", icon: "/Icons/HTML.svg" },
+    { name: "CSS", icon: "/Icons/CSS.svg" },
+    { name: "React", icon: "/Icons/React.svg" },
+    { name: "Next.js", icon: "/Icons/NextJS.svg" },
+    { name: "Tailwind", icon: "/Icons/Tailwind.svg" },
+    { name: "C#", icon: "/Icons/CSharp.svg" },
+    { name: "Git", icon: "/Icons/Git.svg" },
+    { name: "GitHub", icon: "/Icons/GitHub.svg" },
+    { name: "Vercel", icon: "/Icons/Vercel.svg" },
+    { name: "NPM", icon: "/Icons/NPM.svg" },
+    { name: "VS Code", icon: "/Icons/VSCode.svg" },
 ]
 
 export default function Skills() {
